@@ -1,19 +1,51 @@
 aid: harvest-platform
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/harvest-platform.png
 name: Harvest Platform
-description: Harvest Platform is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Harvest Platform was a New York City fintech startup founded in 2017 by Gabriel
+  DellAccio and Namrata Baral that built a consumer investing and banking app. Its
+  signature feature used artificial intelligence to identify negotiable bank fees and
+  automatically negotiate refunds with major U.S. banks, later expanding into
+  micro-investing, round-ups, cashback rewards, and savings tooling. The company was
+  backed by Techstars and Financial Venture Studio, raising roughly $3.3M in seed
+  funding. Its domain growmyharvest.com now 302-redirects to Acorns (acorns.com),
+  consistent with reporting that Harvest Platform was acquired by Acorns in 2021.
+  Harvest Platform was a consumer-facing mobile product and never published a public
+  API, developer portal, SDKs, or OpenAPI, so it carries no technical API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/harvest-platform/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - techstars
+- financial-venture-studio
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-note: growmyharvest.com 302-redirects to acorns.com; reported acquired by Acorns (2021)
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Financial Services
+- Fintech
+- Banking
+- Consumer Finance
+- Investing
+- Artificial Intelligence
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,8 @@ maintainers:
 common:
 - type: Website
   url: https://growmyharvest.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
