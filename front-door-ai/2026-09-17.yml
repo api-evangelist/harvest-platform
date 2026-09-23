@@ -1,0 +1,25 @@
+# Front Door AI Index — harvest-platform — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: harvest-platform
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: growmyharvest.com
+  final_host: www.acorns.com
+  ownership: inherited
+  owner: harvest-platform
+  shares_host_with: null
+  inherited_from: www.acorns.com
+  verdict: silent
+  score: null
+  host_score: 0
+  density: null
+  words: 2842
+  tiers:
+    agentic: 0
+    core: 0
+    model: 0
+  ambiguous: 6
+  top_terms:
+    smart: 6
